@@ -1,0 +1,27 @@
+[
+  {
+    "name": "username",
+    "type": "text",
+    "placeholder": "Enter your username",
+    "classname":"border border-slate-300 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  },
+  {
+    "name": "email",
+    "type": "email",
+    "placeholder": "Enter your email",
+    "classname":"border border-slate-300 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  },
+  {
+    "name": "password",
+    "type": "password",
+    "placeholder": "Enter your password",
+    "classname":"border border-slate-300 rounded-md py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+  },
+  {
+    "name": "submit",
+    "type": "submit",
+    "value": "Login" ,
+    "classname":"bg-green-500 text-white py-2 px-4 rounded-md block mx-auto hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500"
+  }
+]
+

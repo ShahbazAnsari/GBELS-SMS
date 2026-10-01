@@ -1,0 +1,45 @@
+{
+  "sidebar": {
+    "expandedWidth": "w-72",
+    "collapsedWidth": "w-20",
+    "background": "bg-slate-900",
+    "text": "text-white",
+    "transition": "transition-all duration-300"
+  },
+
+  "header": {
+    "container": "flex flex-col items-center justify-center p-4 border-b border-slate-700",
+    "logo": "text-5xl mb-3",
+    "schoolName": "text-center text-sm font-semibold leading-5"
+  },
+
+  "menu": {
+    "container": "p-3",
+
+    "item": {
+      "base": "w-full flex items-center gap-3 px-4 py-3 rounded-lg mb-2 transition-all duration-200",
+      "active": "bg-green-600 text-white",
+      "inactive": "text-slate-200 hover:bg-slate-700",
+      "collapsed": "justify-center px-2"
+    },
+
+    "parent": {
+      "base": "w-full flex items-center gap-3 px-4 py-3 rounded-lg mb-2 transition-all duration-200",
+      "open": "bg-slate-700 text-white",
+      "closed": "text-slate-200 hover:bg-slate-700",
+      "collapsed": "justify-center px-2"
+    },
+
+    "arrow": {
+      "open": "rotate-180 transition-transform duration-200",
+      "closed": "transition-transform duration-200"
+    },
+
+    "children": {
+      "container": "ml-4 pl-3 border-l border-slate-600",
+      "item": "w-full flex items-center gap-3 px-3 py-2 rounded-lg mb-1 text-sm transition-all duration-200",
+      "active": "bg-green-600 text-white",
+      "inactive": "text-slate-300 hover:bg-slate-700"
+    }
+  }
+}
