@@ -1,35 +1,24 @@
-export const refreshAccessToken = async () => {
-  const refresh = localStorage.getItem("refresh");
+const API_URL = "http://127.0.0.1:8000/api";
 
-  if (!refresh) {
-    return null;
-  }
+export const registerUser = async (userData) => {
+  const response = await fetch(`${API_URL}/register/`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(userData),
+  });
 
-  try {
-    const response = await fetch(
-      "http://127.0.0.1:8000/api/token/refresh/",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          refresh: refresh,
-        }),
-      }
+  const data = await response.json();
+
+  if (!response.ok) {
+    throw new Error(
+      data.username?.[0] ||
+      data.password?.[0] ||
+      data.detail ||
+      "Registration failed"
     );
-
-    if (!response.ok) {
-      return null;
-    }
-
-    const data = await response.json();
-
-    localStorage.setItem("access", data.access);
-
-    return data.access;
-  } catch (error) {
-    console.error("Token refresh error:", error);
-    return null;
   }
+
+  return data;
 };

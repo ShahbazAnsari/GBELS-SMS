@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
 
-import menuData from "../configuration/menu.json";
-import style from "../configuration/sidebarStyle.json";
+import menuData from "./sidebarMenu.json";
+import style from "./sidebarStyle.json";
 
 function Sidebar({ collapsed, setCollapsed }) {
 

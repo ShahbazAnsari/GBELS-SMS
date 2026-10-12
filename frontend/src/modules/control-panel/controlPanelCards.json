@@ -1,0 +1,39 @@
+[
+  {
+    "id": "school-management",
+    "title": "🏫 School Management",
+    "description": "Manage schools and branches.",
+    "path": "/layout/control-panel/school-management"
+  },
+  {
+    "id": "school-settings",
+    "title": "⚙️ School Settings",
+    "description": "Manage individual school settings.",
+    "path": "/layout/control-panel/school-settings"
+  },
+  {
+    "id": "user-management",
+    "title": "👥 User Management",
+    "description": "Manage system users and accounts."
+  },
+  {
+    "id": "roles-permissions",
+    "title": "🔐 Roles & Permissions",
+    "description": "Configure roles and permissions."
+  },
+  {
+    "id": "module-settings",
+    "title": "📚 Module Settings",
+    "description": "Enable or configure system modules."
+  },
+  {
+    "id": "academic-settings",
+    "title": "🎓 Academic Settings",
+    "description": "Manage classes, sections and academic settings."
+  },
+  {
+    "id": "system-settings",
+    "title": "🛠️ System Settings",
+    "description": "Manage general system configuration."
+  }
+]

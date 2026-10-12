@@ -1,0 +1,48 @@
+[
+  {
+    "name": "academic_year",
+    "label": "Academic Year",
+    "type": "select",
+    "options": [
+      "2025-26",
+      "2026-27",
+      "2027-28"
+    ],
+    "required": true
+  },
+  {
+    "name": "from_class",
+    "label": "Current Class",
+    "type": "select",
+    "options": [
+      "ECE-I",
+      "ECE-II",
+      "Class 1",
+      "Class 2",
+      "Class 3",
+      "Class 4",
+      "Class 5",
+      "Class 6",
+      "Class 7",
+      "Class 8"
+    ],
+    "required": true
+  },
+  {
+    "name": "to_class",
+    "label": "Promote To",
+    "type": "select",
+    "options": [
+      "ECE-II",
+      "Class 1",
+      "Class 2",
+      "Class 3",
+      "Class 4",
+      "Class 5",
+      "Class 6",
+      "Class 7",
+      "Class 8"
+    ],
+    "required": true
+  }
+]

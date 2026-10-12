@@ -1,0 +1,130 @@
+[
+  {
+    "name": "school_name",
+    "label": "School Name",
+    "type": "text",
+    "placeholder": "Enter school name",
+    "required": true
+  },
+  {
+    "name": "semis_code",
+    "label": "SEMIS Code",
+    "type": "text",
+    "placeholder": "Enter SEMIS code",
+    "required": true
+  },
+  {
+    "name": "school_short_name",
+    "label": "School Short Name",
+    "type": "text",
+    "placeholder": "Enter short name",
+    "required": true
+  },
+  {
+    "name": "branch_identifier",
+    "label": "Branch Identifier",
+    "type": "text",
+    "placeholder": "Enter branch identifier",
+    "required": true
+  },
+  {
+    "name": "school_type",
+    "label": "School Type",
+    "type": "text",
+    "placeholder": "Enter school type",
+    "required": true
+  },
+  {
+    "name": "province",
+    "label": "Province",
+    "type": "text",
+    "placeholder": "Enter province",
+    "required": true
+  },
+  {
+    "name": "district",
+    "label": "District",
+    "type": "text",
+    "placeholder": "Enter district",
+    "required": true
+  },
+  {
+    "name": "taluka",
+    "label": "Taluka",
+    "type": "text",
+    "placeholder": "Enter taluka",
+    "required": true
+  },
+  {
+    "name": "union_council",
+    "label": "Union Council",
+    "type": "text",
+    "placeholder": "Enter union council",
+    "required": false
+  },
+  {
+    "name": "city_town",
+    "label": "City / Town",
+    "type": "text",
+    "placeholder": "Enter city or town",
+    "required": true
+  },
+  {
+    "name": "area_locality",
+    "label": "Area / Locality",
+    "type": "text",
+    "placeholder": "Enter area or locality",
+    "required": true
+  },
+  {
+    "name": "house_no_street",
+    "label": "House No. / Street",
+    "type": "text",
+    "placeholder": "Enter house number or street",
+    "required": false
+  },
+  {
+    "name": "postal_code",
+    "label": "Postal Code",
+    "type": "text",
+    "placeholder": "Enter postal code",
+    "required": false
+  },
+  {
+    "name": "phone",
+    "label": "Phone",
+    "type": "text",
+    "placeholder": "Enter phone number",
+    "required": false
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "email",
+    "placeholder": "Enter school email",
+    "required": false
+  },
+  {
+    "name": "logo",
+    "label": "School Logo",
+    "type": "file",
+    "accept": "image/*",
+    "required": false
+  },
+  {
+    "name": "status",
+    "label": "Status",
+    "type": "select",
+    "required": true,
+    "options": [
+      {
+        "value": "ACTIVE",
+        "label": "Active"
+      },
+      {
+        "value": "INACTIVE",
+        "label": "Inactive"
+      }
+    ]
+  }
+]

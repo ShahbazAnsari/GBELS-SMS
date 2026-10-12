@@ -1,0 +1,70 @@
+{
+  "school": {
+    "name": "Government Boys Elementary School Gharibabad Sukkur",
+    "shortName": "GBELS",
+    "logoPath": "./GBELS_Logo.png",
+    "logo": "🏫"
+  },
+
+  "menu": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "icon": "📊",
+      "path": "/layout"
+    },
+
+    {
+      "id": "students",
+      "title": "Student Management",
+      "icon": "🎓",
+      "children": [
+        {
+          "id": "student-registration",
+          "title": "Student Registration",
+          "icon": "👨‍🎓",
+          "path": "/layout/new-admission"
+        },
+        {
+          "id": "enrollment",
+          "title": "Enrolled Students",
+          "icon": "👨‍🎓",
+          "path": "/layout/enrollment"
+        },
+        {
+          "id": "attendance",
+          "title": "Attendance",
+          "icon": "📋",
+          "path": "/layout/attendance"
+        },
+        {
+          "id": "class-promotion",
+          "title": "Class Promotion",
+          "icon": "📈",
+          "path": "/layout/promotion"
+        }
+
+      ]
+    },
+
+    {
+      "id": "staff",
+      "title": "Staff Management",
+      "icon": "👨‍🏫",
+      "children": [
+        {
+          "id": "staff-registration",
+          "title": "Staff Registration",
+          "icon": "👤",
+          "path": "/layout/staff/registration"
+        },
+        {
+          "id": "staff-list",
+          "title": "Staff List",
+          "icon": "📋",
+          "path": "/layout/staff/list"
+        }
+      ]
+    }
+  ]
+}

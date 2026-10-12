@@ -1,0 +1,12 @@
+{
+  "layout": "Dashboard",
+  "control-panel": "Control Panel",
+  "school-management": "School Management",
+  "add": "Add School",
+  "all": "All Schools",
+  "staff": "Staff",
+  "registration": "Staff Registration",
+  "new-admission": "New Admission",
+  "enrollment": "Enrollment",
+  "attendance": "Attendance"
+}

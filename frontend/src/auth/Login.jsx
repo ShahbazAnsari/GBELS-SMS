@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import formFields from "../data/authFormFields.json";
+import formFields from "./authFormFields.json";
 
 const Login = () => {
     const navigate = useNavigate();
@@ -43,8 +43,7 @@ const Login = () => {
 
                 <form
                     className="mt-4"
-                    onSubmit={handleLogin}
-                >
+                    onSubmit={handleLogin}>
 
                     {formFields
                         .filter((field) => field.name !== "submit" && field.name !== "email")
@@ -57,13 +56,11 @@ const Login = () => {
                                     type={field.type}
                                     placeholder={field.placeholder}
                                     className={field.classname}
-
                                     value={
                                         field.name === "username"
                                             ? username
                                             : password
                                     }
-
                                     onChange={(e) => {
                                         if (field.name === "username") {
                                             setUsername(e.target.value);

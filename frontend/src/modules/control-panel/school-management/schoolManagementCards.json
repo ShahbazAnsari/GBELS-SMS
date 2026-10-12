@@ -1,0 +1,16 @@
+[
+  {
+    "id": "add-school",
+    "title": "Add New School",
+    "description": "Create a new school or branch.",
+    "icon": "🏫",
+    "path": "/layout/control-panel/school-management/add"
+  },
+  {
+    "id": "all-schools",
+    "title": "All Schools / Branches",
+    "description": "View and manage all schools and branches.",
+    "icon": "🏢",
+    "path": "/layout/control-panel/school-management/all"
+  }
+]

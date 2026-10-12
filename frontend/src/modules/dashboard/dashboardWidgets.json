@@ -1,0 +1,26 @@
+[
+  {
+    "id": "total-students",
+    "title": "Total Students",
+    "component": "TotalStudents",
+    "visible": true
+  },
+  {
+    "id": "active-students",
+    "title": "Active Students",
+    "component": "ActiveStudents",
+    "visible": true
+  },
+  {
+    "id": "attendance",
+    "title": "Today's Attendance",
+    "component": "Attendance",
+    "visible": true
+  },
+  {
+    "id": "new-admissions",
+    "title": "New Admissions",
+    "component": "NewAdmissions",
+    "visible": true
+  }
+]

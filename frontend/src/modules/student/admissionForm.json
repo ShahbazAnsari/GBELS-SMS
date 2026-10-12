@@ -1,0 +1,250 @@
+[
+  {
+    "section": "Personal Information",
+    "fields": [
+      {
+        "name": "first_name",
+        "label": "First Name",
+        "type": "text",
+        "placeholder": "Enter first name",
+        "required": true
+      },
+      {
+        "name": "last_name",
+        "label": "Last Name",
+        "type": "text",
+        "placeholder": "Enter last name",
+        "required": false
+      },
+      {
+        "name": "surname",
+        "label": "Surname",
+        "type": "text",
+        "placeholder": "Enter surname",
+        "required": true
+      },
+      {
+        "name": "dob",
+        "label": "Date of Birth",
+        "type": "date",
+        "required": true
+      },
+      {
+        "name": "gender",
+        "label": "Gender",
+        "type": "select",
+        "required": true,
+        "options": [
+          {
+            "value": "MALE",
+            "label": "Male"
+          },
+          {
+            "value": "FEMALE",
+            "label": "Female"
+          }
+        ]
+      },
+      {
+        "name": "religion",
+        "label": "Religion",
+        "type": "select",
+        "required": true,
+        "options": [
+          {
+            "value": "ISLAM",
+            "label": "Islam"
+          },
+          {
+            "value": "HINDU",
+            "label": "Hindu"
+          },
+          {
+            "value": "CHERISTIAN",
+            "label": "Cheristian"
+          }
+        ]
+      },
+      {
+        "name": "b_form_crc",
+        "label": "B-Form / CRC",
+        "type": "text",
+        "placeholder": "Enter B-Form / CRC number",
+        "required": false
+      },
+      {
+        "name": "nationality",
+        "label": "Nationality",
+        "type": "text",
+        "placeholder": "Enter nationality",
+        "required": false
+      }
+    ]
+  },
+
+  {
+    "section": "Parent / Guardian Information",
+    "fields": [
+      {
+        "name": "father_name",
+        "label": "Father's Name",
+        "type": "text",
+        "placeholder": "Enter father's name",
+        "required": true
+      },
+      {
+        "name": "father_mother_cnic",
+        "label": "Father's CNIC",
+        "type": "text",
+        "placeholder": "Enter father's CNIC",
+        "required": true
+      },
+      {
+        "name": "guardian_name",
+        "label": "Guardian Name",
+        "type": "text",
+        "placeholder": "Enter guardian name",
+        "required": false
+      },
+      {
+        "name": "guardian_cnic",
+        "label": "Guardian CNIC",
+        "type": "text",
+        "placeholder": "Enter guardian CNIC",
+        "required": false
+      },
+      {
+        "name": "guardian_relation",
+        "label": "Guardian Relation",
+        "type": "text",
+        "placeholder": "Enter guardian relation",
+        "required": false
+      },
+      {
+        "name": "parent_guardian_email",
+        "label": "Parent / Guardian Email",
+        "type": "text",
+        "placeholder": "Enter parents / guardian email",
+        "required": false
+      }
+    ]
+  },
+
+  {
+    "section": "Contact Information",
+    "fields": [
+      {
+        "name": "contact_no",
+        "label": "Contact No.",
+        "type": "text",
+        "placeholder": "Enter contact number",
+        "required": true
+      },
+      {
+        "name": "emergency_contact_no",
+        "label": "Emergency Contact",
+        "type": "text",
+        "placeholder": "Enter emergency contact",
+        "required": false
+      }
+    ]
+  },
+
+  {
+    "section": "School / Admission Information",
+    "fields": [
+      {
+        "name": "admission_type",
+        "label": "Admission Type",
+        "type": "select",
+        "required": true,
+        "options": []
+      },
+      {
+        "name": "student_class",
+        "label": "Class",
+        "type": "select",
+        "required": true,
+        "options": []
+      },
+      {
+        "name": "section",
+        "label": "Section",
+        "type": "select",
+        "required": true,
+        "options": []
+      },
+      {
+        "name": "medium",
+        "label": "Medium",
+        "type": "select",
+        "required": true,
+        "options": []
+      },
+      {
+        "name": "date_of_admission",
+        "label": "Admission Date",
+        "type": "date",
+        "required": true
+      },
+      {
+        "name": "student_status",
+        "label": "Status",
+        "type": "select",
+        "required": false,
+        "options": [
+          {
+            "value": "ACTIVE",
+            "label": "Active"
+          },
+          {
+            "value": "INACTIVE",
+            "label": "Inactive"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "section": "Previous School Information",
+    "fields": [
+      {
+        "name": "previous_school",
+        "label": "Previous School",
+        "type": "text",
+        "placeholder": "Enter previous school",
+        "required": false
+      },
+      {
+        "name": "previous_class",
+        "label": "Previous Class",
+        "type": "select",
+        "required": false,
+        "options": []
+      },
+      {
+        "name": "last_gr_no",
+        "label": "Last GR No.",
+        "type": "text",
+        "placeholder": "Enter previous school GR No.",
+        "required": false
+      }
+    ]
+  },
+
+  {
+    "section": "Student Picture",
+    "fields": [
+      {
+        "name": "picture",
+        "label": "Student Picture",
+        "type": "file",
+        "accept": "image/*",
+        "width": "160px",
+        "height": "192px",
+        "required": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Academic Session",
+    "description": "Manage academic years and current session.",
+    "path": "/layout/control-panel/school-settings/academic-session"
+  },
+  {
+    "title": "Classes / Grades",
+    "description": "Manage classes and grade levels.",
+    "path": "/layout/control-panel/school-settings/classes"
+  },
+  {
+    "title": "Sections",
+    "description": "Manage class sections such as A, B and C.",
+    "path": "/layout/control-panel/school-settings/sections"
+  },
+  {
+    "title": "Mediums",
+    "description": "Manage teaching mediums and class-wise medium settings.",
+    "path": "/layout/control-panel/school-settings/mediums"
+  },
+  {
+    "title": "Admission Type",
+    "description": "Manage admission types settings.",
+    "path": "/layout/control-panel/school-settings/admission-type"
+  },
+  {
+    "title": "Subjects",
+    "description": "Manage subjects and class-wise subjects.",
+    "path": "/layout/control-panel/school-settings/subjects"
+  },
+  {
+    "title": "Grading / Marks",
+    "description": "Configure marks, passing marks and grades.",
+    "path": "/layout/control-panel/school-settings/grading"
+  },
+  {
+    "title": "Attendance Settings",
+    "description": "Configure attendance rules and statuses.",
+    "path": "/layout/control-panel/school-settings/attendance"
+  }
+]

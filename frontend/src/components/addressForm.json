@@ -1,0 +1,50 @@
+[
+    {
+      "name": "province",
+      "label": "Province",
+      "placeholder": "Enter province",
+      "required": false
+    },
+    {
+      "name": "district",
+      "label": "District",
+      "placeholder": "Enter district",
+      "required": true
+    },
+    {
+      "name": "taluka",
+      "label": "Taluka",
+      "placeholder": "Enter taluka",
+      "required": true
+    },
+    {
+      "name": "union_council",
+      "label": "Union Council",
+      "placeholder": "Enter union council",
+      "required": false
+    },
+    {
+      "name": "city_town",
+      "label": "City / Town",
+      "placeholder": "Enter city or town",
+      "required": true
+    },
+    {
+      "name": "area_locality",
+      "label": "Area / Locality",
+      "placeholder": "Enter area or locality",
+      "required": false
+    },
+    {
+      "name": "house_no_street",
+      "label": "House No. / Street",
+      "placeholder": "Enter house number or street",
+      "required": false
+    },
+    {
+      "name": "postal_code",
+      "label": "Postal Code",
+      "placeholder": "Enter postal code",
+      "required": false
+    }
+  ]
